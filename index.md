@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+    <title>WBC Cafe</title>
 
-You can use the [editor on GitHub](https://github.com/RikoMatsumura/cafe-demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/style.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- ファビコン -->
+<link rel="icon" type="image/png" href="../images/favicon.png">
 
-### Markdown
+<!-- レスポンシブ -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</head>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<body>
+    <div id="home" class="big-bg">
+    <header class="page-header wrapper">
+        <h1>
+        <a href="index.html"><img class="logo" src="../images/logo.svg" alt="WBCカフェホーム">
+        </a></h1>
 
-- Bulleted
-- List
+        <nav>
+            <ul class="main-nav">
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
 
-1. Numbered
-2. List
+    <!-- ホームコンテンツ -->
+    <div class="home-content wrapper">
+        <h2 class="page-title">We'll make your Day.</h2>
+        <p>おしゃれなカフェで癒されてみませんか？無添加の食材で体の中からリフレッシュ。</p>
+        <a class="button" href="menu.html">メニューを見る</a>
+    </div>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RikoMatsumura/cafe-demo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2019 Manabox</small></p>
+        </div>
+    </footer>
+</body>
+</html>
